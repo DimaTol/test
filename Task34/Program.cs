@@ -10,7 +10,7 @@ int[] CreateArrayRndInt(int size, int min, int max)//1. делаем метод 
     Random rnd = new Random(); //вводим переменную Random на рандомное число, либо var
     for (int i = 0; i < size; i++)
     {
-        array[i] = rnd.Next(100,999); //задаем диапазон числа массива
+        array[i] = rnd.Next(100, 999); //задаем диапазон числа массива
     }
 
     return array; // возвращаем переменную
