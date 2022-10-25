@@ -24,7 +24,7 @@ void PrintArray(int[] array) //далем метод для вывода на п
         if (i < array.Length - 1) Console.Write($"{array[i]}, "); //выводим с запятой пока i меньше массива
         else Console.Write($"{array[i]} ");// иначе без запятой
     }
-    Console.WriteLine("]");
+    Console.Write("] -> ");
 }
 
 int EvenNumbersCount(int[] array)
@@ -41,6 +41,7 @@ int[] arr = CreateArrayRndInt(7, 0, 9);
 PrintArray(arr);
 int count = EvenNumbersCount(arr);
 Console.Write(count);
+
 
 
 
